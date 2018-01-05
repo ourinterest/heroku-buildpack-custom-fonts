@@ -14,7 +14,7 @@ FONTS_TARGET_DIR="$BUILD_DIR/.fonts"
 
 echo "-----> Installing custom fonts"
 mkdir -p "$FONTS_TARGET_DIR"
-cp -a $FONTS_DIR $FONTS_TARGET_DIR
+cp -a $FONTS_DIR/. $FONTS_TARGET_DIR/
 #tar -xvzf "$FONTS_FILE" -C "$FONTS_TARGET_DIR" | indent
 
 echo
